@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ProfileContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter yourown information" />
+
+    <TextView
+        android:id="@+id/txtMyFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Name" />
+
+    <EditText
+        android:id="@+id/MyFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your first name here"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtMyLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Name" />
+
+    <EditText
+        android:id="@+id/MyLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your last name here"
+        android:inputType="textPersonName" />
+
+    <!--<DatePicker
+        android:id="@+id/datePicker"
+        android:calendarViewShown="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></DatePicker> -->
+
+    <Button
+        android:id="@+id/MyNameSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Button" />
+</LinearLayout>

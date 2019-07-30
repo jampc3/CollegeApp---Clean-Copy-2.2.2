@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtGuardInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your Guardian's information here" />
+
+    <TextView
+        android:id="@+id/txtGuardFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:text="Guardian's First Name" />
+
+    <EditText
+        android:id="@+id/editGuardFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtGuardLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardian's Lastname" />
+
+    <EditText
+        android:id="@+id/editGuardLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtGuardJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Occupation" />
+
+    <EditText
+        android:id="@+id/editGuardJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your occupation here"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/guardSubmitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Button" />
+
+</LinearLayout>
